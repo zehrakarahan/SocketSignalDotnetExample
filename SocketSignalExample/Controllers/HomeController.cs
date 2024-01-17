@@ -9,7 +9,7 @@ namespace SocketSignalExample.Controllers
     [Route("api/[controller]")]
     public class HomeController : ControllerBase
     {
-        public IAuthService _authService;
+        public IAuthService _authService; 
         public HomeController(IAuthService authService)
         {
             _authService = authService;
